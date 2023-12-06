@@ -41,12 +41,7 @@
         name: 'menu',
         data() {
             return {
-                contacts: [{
-                    src: '../assets/teste.png',
-                    name: 'João',
-                    about: 'Just like her...',
-                    room: 'test@email.com'
-                }],
+                contacts: [],
                 MENU_CREATE: false
             }
         },
