@@ -1,0 +1,20 @@
+<template>
+  <router-view />
+</template>
+
+<script>
+  export default {
+    name: 'App'
+  }
+</script>
+
+<style>
+  *{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  body{
+    background-color: #30303C;
+  }
+</style>
