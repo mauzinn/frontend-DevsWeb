@@ -59,7 +59,7 @@
                         localStorage.removeItem('EMAIL_USER')
 
                         localStorage.setItem('x-access-token', response.token)
-                        location.href = 'http://localhost:8080/overview'
+                        location.href = 'https://frontend-devs-web.vercel.app/overview'
                     } else {
                         this.alert = response.error
 

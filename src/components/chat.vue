@@ -44,7 +44,7 @@
 
 <script>
     import menuVue from '../components/menu.vue'
-    const socket = require('socket.io-client')('http://localhost:3000')
+    const socket = require('socket.io-client')('https://backend-devs-web.vercel.app')
 
     socket.emit('CHANGE_ROOM', '0')
 

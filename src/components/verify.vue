@@ -26,7 +26,7 @@
 
                 if (!response.result) {
                     localStorage.removeItem('x-access-token')
-                    location.href = 'http://localhost:8080/'
+                    location.href = 'https://frontend-devs-web.vercel.app/'
                 }
 
                 this.$store.commit('SET_DATA_USER', response.data)

@@ -45,7 +45,7 @@
                     const response = await res.json()
 
                     if (response.result) {
-                        location.href = 'http://localhost:8080/create'
+                        location.href = 'https://frontend-devs-web.vercel.app/create'
                     } else {
                         this.alert = response.error
 

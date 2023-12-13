@@ -51,7 +51,7 @@
 
                     if (response.result) {
                         localStorage.setItem('EMAIL_USER', this.email)
-                        location.href = 'http://localhost:8080/verify'
+                        location.href = 'https://frontend-devs-web.vercel.app/verify'
                     } else {
                         this.alert = response.error
 
