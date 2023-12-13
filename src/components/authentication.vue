@@ -36,7 +36,7 @@
             async GENERATE_CODE(e) {
                 e.preventDefault()
 
-                const URL = 'http://localhost:3000/code/sign'
+                const URL = 'https://backend-devs-web.vercel.app/code/sign'
 
                 const request = await fetch(URL, {
                     method: 'POST',

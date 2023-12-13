@@ -7,7 +7,7 @@
         name: 'verify',
         async created() {
             const token = localStorage.getItem('x-access-token')
-            const URL = 'http://localhost:3000/jwt/decode'
+            const URL = 'https://backend-devs-web.vercel.app/jwt/decode'
 
             if (!token) {
                 location.href = 'http://localhost:8080/'

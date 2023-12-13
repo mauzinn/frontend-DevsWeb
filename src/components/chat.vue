@@ -119,7 +119,7 @@
                     socket.emit('CHANGE_ROOM', this.$store.state.room)
                     this.messages = []
 
-                    const URL = "http://localhost:3000/message/read"
+                    const URL = "https://backend-devs-web.vercel.app/message/read"
 
                     const request = await fetch(URL, {
                         method: 'POST',

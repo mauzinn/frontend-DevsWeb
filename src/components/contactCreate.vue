@@ -25,7 +25,7 @@
             async CREATE_CONTACT(e) {
                 e.preventDefault()
 
-                const URL = "http://localhost:3000/contact/create"
+                const URL = "https://backend-devs-web.vercel.app/contact/create"
 
                 const DATA = JSON.stringify({
                     email: this.email,

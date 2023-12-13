@@ -39,7 +39,7 @@
                 
                 const file = e.target[0].files[0]
 
-                const URL = 'http://localhost:3000/account/authentication'
+                const URL = 'https://backend-devs-web.vercel.app/account/authentication'
 
                 let data = new FormData()
 

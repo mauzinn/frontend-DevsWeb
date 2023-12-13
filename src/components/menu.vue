@@ -53,7 +53,7 @@
             //Buscar contatos
             setTimeout(async() => {
 
-                const URL = "http://localhost:3000/contact/read"
+                const URL = "https://backend-devs-web.vercel.app/contact/read"
 
                 const request = await fetch(URL, {
                     method: 'POST',

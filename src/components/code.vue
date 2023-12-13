@@ -31,7 +31,7 @@
             async VERIFY_CODE(e) {
                 e.preventDefault()
 
-                const URL = 'http://localhost:3000/code/verify'
+                const URL = 'https://backend-devs-web.vercel.app/code/verify'
 
                 const request = await fetch(URL, {
                     method: 'POST',
